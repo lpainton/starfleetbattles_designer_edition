@@ -3,8 +3,23 @@
 <div>
     <label>Ship Type:<label>
     <select name="attr_ship_type">
-      <option value="https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/human_cruiser_bg.png" selected>Human Cruiser</option>
-      <option value="https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/gorn_cruiser_bg.png">Gorn Cruiser</option>
+      <option value="HCA" selected>Human Heavy Cruiser</option>
+      <option value="GCA">Gorn Heavy Cruiser</option>
     </select>
 </div>
-<div name="attr_sheet_image"> </div>
+<div name="attr_sheet_image"></div>
+
+<script type="text/worker">
+    on('change:ship_type', function() {
+        getAttrs(['ship_type'], function(values) {
+            switch(values['ship_type']) {
+                case 'HCA':
+                    setAttrs({sheet_image: 'https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/human_cruiser_bg.png'});
+                    return;
+                case 'GCA':
+                    setAttrs({sheet_image: 'https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/gorn_cruiser_bg.png'});
+                    return;
+            }       
+        });
+    });  
+</script>
