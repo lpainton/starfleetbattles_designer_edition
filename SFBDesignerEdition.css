@@ -1,7 +1,22 @@
+input.ssd-box {
+    transform: scale(2);
+    opacity: 0;
+}
+
+div.ssd-box {
+    width: 24px;
+    height: 25px;
+}
+
+input.ssd-box:checked {
+    opacity: 0.75;
+}
+
 /* hides all ssds by default*/
 .charsheet .ssd {
-    width: 642px;
+    width: 641px;
     height: 945px;
+    position: absolute;
 }
 .charsheet .ssd-hca {
     display: none;
@@ -11,9 +26,19 @@
     display: none;
     background-image: url("https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/gorn_cruiser_bg.png");
 }
-
 /* show the selected ssds */
 .charsheet .ssd-typetoggle[value="HCA"] ~ div.ssd-hca,
 .charsheet .ssd-typetoggle[value="GCA"] ~ div.ssd-gca {
     display: block;
+}
+
+div.ssd-hca .shield_1 {
+    width: 250px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 88px;
+    left: 178px;
 }
