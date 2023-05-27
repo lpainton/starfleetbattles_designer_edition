@@ -1,0 +1,19 @@
+/* hides all ssds by default*/
+.charsheet .ssd {
+    width: 642px;
+    height: 945px;
+}
+.charsheet .ssd-hca {
+    display: none;
+    background-image: url("https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/human_cruiser_bg.png");
+}
+.charsheet .ssd-gca {
+    display: none;
+    background-image: url("https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/gorn_cruiser_bg.png");
+}
+
+/* show the selected ssds */
+.charsheet .ssd-typetoggle[value="HCA"] ~ div.ssd-hca,
+.charsheet .ssd-typetoggle[value="GCA"] ~ div.ssd-gca {
+    display: block;
+}

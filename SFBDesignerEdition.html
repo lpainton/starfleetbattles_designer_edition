@@ -1,25 +1,22 @@
-<img name="attr_sheet_image" src=""/>
-
 <div>
-    <label>Ship Type:<label>
+    <label for="attr_ship_type">Ship Type</label>
     <select name="attr_ship_type">
       <option value="HCA" selected>Human Heavy Cruiser</option>
       <option value="GCA">Gorn Heavy Cruiser</option>
     </select>
 </div>
-<div name="attr_sheet_image"></div>
+
+<div class="ship"></div>
+    <input type="hidden" class="ssd-typetoggle" name="attr_ship_type" value="HCA">
+    <input name="attr_ship_name" type="text" />
+    <label for="attr_ship_name">Ship Name</label>
+
+    <div class="ssd ssd-hca">
+    </div>
+    <div class="ssd ssd-gca">
+    </div>
+    </input>
+</div>
 
 <script type="text/worker">
-    on('change:ship_type', function() {
-        getAttrs(['ship_type'], function(values) {
-            switch(values['ship_type']) {
-                case 'HCA':
-                    setAttrs({sheet_image: 'https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/human_cruiser_bg.png'});
-                    return;
-                case 'GCA':
-                    setAttrs({sheet_image: 'https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/gorn_cruiser_bg.png'});
-                    return;
-            }       
-        });
-    });  
 </script>
