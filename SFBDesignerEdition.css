@@ -2,6 +2,10 @@
 .charsheet .ssd {
     position: absolute;
 }
+.charsheet .ssd-gca {
+    display: none;
+    background-image: url("https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/ssd_sf.png");
+}
 .charsheet .ssd-hca {
     display: none;
     width: 750px;
