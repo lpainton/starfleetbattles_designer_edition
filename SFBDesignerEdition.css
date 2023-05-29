@@ -6,13 +6,13 @@
     display: none;
     width: 448px;
     height: 861px;
-    background-image: url("https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/ssd_sf.png");
+    background-image: url("https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/ssd_sf_v2.png");
 }
 .charsheet .ssd-hca {
     display: none;
     width: 750px;
     height: 1000px;
-    background-image: url("https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/ssd_hca.png");
+    background-image: url("https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/ssd_hca_v2.png");
 }
 .charsheet .ssd-gca {
     display: none;
