@@ -1,12 +1,12 @@
 /* hides all ssds by default*/
 .charsheet .ssd {
-    width: 641px;
-    height: 945px;
     position: absolute;
 }
 .charsheet .ssd-hca {
     display: none;
-    background-image: url("https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/human_cruiser_bg.png");
+    width: 750px;
+    height: 1000px;
+    background-image: url("https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/ssd_hca.png");
 }
 .charsheet .ssd-gca {
     display: none;
@@ -25,46 +25,46 @@
 }
 input.ssd-box {
     transform: scale(1.8);
-    opacity: 0;
+    opacity: 1;
 }
 div.ssd-box {
-    width: 24px;
-    height: 24px;
+    width: 25px;
+    height: 25px;
 }
 input.ssd-box:checked {
     opacity: 0.75;
 }
 div.ssd-col-3 {
-    width: 24px;
+    width: 25px;
     height: 75px;
 }
 div.ssd-col-2 {
-    width: 24px;
+    width: 25px;
     height: 50px;
 }
 div.ssd-col-1 {
-    width: 24px;
-    height: 24px;
+    width: 25px;
+    height: 25px;
 }
 
 /*HCA Components*/
 div.ssd-hca .shield-1 {
     width: 250px;
     height: 75px;
-    top: 88px;
-    left: 179px;
+    top: 108px;
+    left: 250px;
 }
 div.ssd-hca .shield-2 {
     width: 50px;
-    height: 280px;
-    top: 208px;
-    left: 515px;
+    height: 275px;
+    top: 234px;
+    left: 603px;
 }
 div.ssd-hca .shield-3 {
     width: 50px;
-    height: 233px;
-    top: 567px;
-    left: 515px;
+    height: 225px;
+    top: 590px;
+    left: 590px;
 }
 div.ssd-hca .shield-4 {
     width: 250px;
