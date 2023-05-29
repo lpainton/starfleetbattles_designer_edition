@@ -1,14 +1,14 @@
 <div>
     <label for="attr_ship_type">Ship Type</label>
     <select name="attr_ship_type">
-      <option value="SF">Small Freighter</option>
-      <option value="HCA" selected>Human Heavy Cruiser</option>
+      <option value="SF" selected>Small Freighter</option>
+      <option value="HCA">Human Heavy Cruiser</option>
       <option value="GCA">Gorn Heavy Cruiser</option>
     </select>
 </div>
 
 <div class="ship"></div>
-    <input type="hidden" class="ssd-typetoggle" name="attr_ship_type" value="HCA">
+    <input type="hidden" class="ssd-typetoggle" name="attr_ship_type" value="SF">
     <input name="attr_ship_name" type="text" />
     <label for="attr_ship_name">Ship Name</label>
 
@@ -74,6 +74,37 @@
     <div class="ssd ssd-gca">
     </div>
     <div class="ssd ssd-sf">
+        <div class="ssd-component shield-1"><input type="number" name="attr_shield_1" class="ssd-number"/></div>
+        <div class="ssd-component shield-2"><input type="number" name="attr_shield_2" class="ssd-number"/></div>
+        <div class="ssd-component shield-3"><input type="number" name="attr_shield_3" class="ssd-number"/></div>
+        <div class="ssd-component shield-4"><input type="number" name="attr_shield_4" class="ssd-number"/></div>
+        <div class="ssd-component shield-5"><input type="number" name="attr_shield_5" class="ssd-number"/></div>
+        <div class="ssd-component shield-6"><input type="number" name="attr_shield_6" class="ssd-number"/></div>
+        <div class="ssd-component brdg"><input type="number" name="attr_brdg" class="ssd-number"/></div>
+        <div class="ssd-component emer"><input type="number" name="attr_emer" class="ssd-number"/></div>
+        <div class="ssd-component hull-lf"><input type="number" name="attr_hull_lf" class="ssd-number"/></div>
+        <div class="ssd-component hull-rf"><input type="number" name="attr_hull_rf" class="ssd-number"/></div>
+        <div class="ssd-component phas"><input type="number" name="attr_phas" class="ssd-number"/></div>
+        <div class="ssd-component tran"><input type="number" name="attr_tran" class="ssd-number"/></div>
+        <div class="ssd-component btty"><input type="number" name="attr_btty" class="ssd-number"/></div>
+        <div class="ssd-component shtl"><input type="number" name="attr_shtl" class="ssd-number"/></div>
+        <div class="ssd-component cargo"><input type="number" name="attr_cargo" class="ssd-number"/></div>
+        <div class="ssd-component warp-lr"><input type="number" name="attr_warp_lr" class="ssd-number"/></div>
+        <div class="ssd-component warp-rr"><input type="number" name="attr_warp_rr" class="ssd-number"/></div>
+        <div class="ssd-component imp"><input type="number" name="attr_imp" class="ssd-number"/></div>
+        <div class="ssd-component sensor">
+            <div class="ssd-box"><input type="checkbox" class="ssd-box" name="attr_sensor_6"/></div>
+            <div class="ssd-box"><input type="checkbox" class="ssd-box" name="attr_sensor_0"/></div>
+        </div>
+        <div class="ssd-component scanner">
+            <div class="ssd-box"><input type="checkbox" class="ssd-box" name="attr_scanner_0"/></div>
+            <div class="ssd-box"><input type="checkbox" class="ssd-box" name="attr_scanner_9"/></div>
+        </div>
+        <div class="ssd-component dam-con">
+            <div class="ssd-box"><input type="checkbox" class="ssd-box" name="attr_dam_con_2"/></div>
+            <div class="ssd-box"><input type="checkbox" class="ssd-box" name="attr_dam_con_0"/></div>
+        </div>
+        <div class="ssd-component ex-dam"><input type="number" name="attr_ex_dam" class="ssd-number"/></div>
     </div>
     </input>
 </div>

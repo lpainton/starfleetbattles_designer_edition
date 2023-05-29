@@ -2,8 +2,10 @@
 .charsheet .ssd {
     position: absolute;
 }
-.charsheet .ssd-gca {
+.charsheet .ssd-sf {
     display: none;
+    width: 448px;
+    height: 861px;
     background-image: url("https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/ssd_sf.png");
 }
 .charsheet .ssd-hca {
@@ -14,11 +16,14 @@
 }
 .charsheet .ssd-gca {
     display: none;
+    width: 642px;
+    height: 945px;
     background-image: url("https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/gorn_cruiser_bg.png");
 }
 /* show the selected ssds */
 .charsheet .ssd-typetoggle[value="HCA"] ~ div.ssd-hca,
-.charsheet .ssd-typetoggle[value="GCA"] ~ div.ssd-gca {
+.charsheet .ssd-typetoggle[value="GCA"] ~ div.ssd-gca,
+.charsheet .ssd-typetoggle[value="SF"] ~ div.ssd-sf {
     display: block;
 }
 .ssd-component {
@@ -27,9 +32,13 @@
     flex-wrap: wrap;
     position: absolute;
 }
+input.ssd-number {
+    width: 25px;
+    height: 25px;
+}
 input.ssd-box {
     transform: scale(1.8);
-    opacity: 1;
+    opacity: .75;
 }
 div.ssd-box {
     width: 25px;
@@ -50,6 +59,97 @@ div.ssd-col-1 {
     width: 25px;
     height: 25px;
 }
+
+/*SF Components*/
+div.ssd-sf .shield-1 {
+    top: 35px;
+    left: 200px;
+}
+div.ssd-sf .shield-2 {
+    top: 125px;
+    left: 365px;
+}
+div.ssd-sf .shield-3 {
+    top: 480px;
+    left: 365px;
+}
+div.ssd-sf .shield-4 {
+    top: 745px;
+    left: 200px;
+}
+div.ssd-sf .shield-5 {
+    top: 480px;
+    left: 35px;
+}
+div.ssd-sf .shield-6 {
+    top: 125px;
+    left: 35px;
+}
+div.ssd-sf .brdg {
+    top: 110px;
+    left: 175px;
+}
+div.ssd-sf .emer {
+    top: 110px;
+    left: 225px;
+}
+div.ssd-sf .hull-lf {
+    top: 160px;
+    left: 150px;
+}
+div.ssd-sf .hull-rf {
+    top: 160px;
+    left: 250px;
+}
+div.ssd-sf .phas {
+    top: 185px;
+    left: 200px;
+}
+div.ssd-sf .tran {
+    top: 235px;
+    left: 150px;
+}
+div.ssd-sf .btty {
+    top: 235px;
+    left: 200px;
+}
+div.ssd-sf .shtl {
+    top: 235px;
+    left: 250px;
+}
+div.ssd-sf .cargo {
+    top: 480px;
+    left: 200px;
+}
+div.ssd-sf .warp-lr {
+    top: 640px;
+    left: 150px;
+}
+div.ssd-sf .imp {
+    top: 640px;
+    left: 200px;
+}
+div.ssd-sf .warp-rr {
+    top: 640px;
+    left: 250px;
+}
+div.ssd-sf .sensor {
+    top: 821px;
+    left: 53px;
+}
+div.ssd-sf .scanner {
+    top: 821px;
+    left: 154px;
+}
+div.ssd-sf .dam-con {
+    top: 821px;
+    left: 255px;
+}
+div.ssd-sf .ex-dam {
+    top: 815px;
+    left: 350px;
+}
+/*End SF Components*/
 
 /*HCA Components*/
 div.ssd-hca .shield-1 {
