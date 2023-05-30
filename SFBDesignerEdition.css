@@ -158,6 +158,131 @@ div.ssd-sf .ex-dam {
 }
 /*End SF Components*/
 
+/*FDD Components*/
+div.ssd-fdd .shield-1 {
+    top: 25px;
+    left: 320px;
+}
+div.ssd-fdd .shield-2 {
+    top: 100px;
+    left: 540px;
+}
+div.ssd-fdd .shield-3 {
+    top: 425px;
+    left: 540px;
+}
+div.ssd-fdd .shield-4 {
+    top: 660px;
+    left: 320px;
+}
+div.ssd-fdd .shield-5 {
+    top: 425px;
+    left: 100px;
+}
+div.ssd-fdd .shield-6 {
+    top: 100px;
+    left: 100px;
+}
+div.ssd-fdd .photon-fa {
+    top: 124px;
+    left: 301px;
+}
+div.ssd-fdd .btty {
+    top: 170px;
+    left: 245px;
+}
+div.ssd-fdd .ph-1-fh {
+    top: 173px;
+    left: 326px;
+}
+div.ssd-fdd .tran {
+    top: 170px;
+    left: 395px;
+}
+div.ssd-fdd .ph-1-lf {
+    width: 25px;
+    height: 50px;
+    top: 220px;
+    left: 205px;
+}
+div.ssd-fdd .lab-lf {
+    top: 220px;
+    left: 245px;
+}
+div.ssd-fdd .bridge {
+    top: 220px;
+    left: 320px;
+}
+div.ssd-fdd .lab-rf {
+    top: 220px;
+    left: 395px;
+}
+div.ssd-fdd .ph-1-rf {
+    width: 25px;
+    height: 50px;
+    top: 220px;
+    left: 472px;
+}
+div.ssd-fdd .trac {
+    top: 265px;
+    left: 320px;
+}
+div.ssd-fdd .hull-lf {
+    top: 290px;
+    left: 210px;
+}
+div.ssd-fdd .hull-rf {
+    top: 290px;
+    left: 430px;
+}
+div.ssd-fdd .aux {
+    top: 315px;
+    left: 295px;
+}
+div.ssd-fdd .prb {
+    top: 315px;
+    left: 345px;
+}
+div.ssd-fdd .emer {
+    top: 365px;
+    left: 295px;
+}
+div.ssd-fdd .shtl {
+    top: 365px;
+    left: 345px;
+}
+div.ssd-fdd .impulse {
+    top: 415px;
+    left: 320px;
+}
+div.ssd-fdd .warp {
+    top: 515px;
+    left: 320px;
+}
+div.ssd-fdd .sensor {
+    width: 25px;
+    height: 150px;
+    top: 62px;
+    left: 34px;
+}
+div.ssd-fdd .scanner {
+    width: 25px;
+    height: 150px;
+    top: 257px;
+    left: 34px;
+}
+div.ssd-fdd .dam-con {
+    width: 25px;
+    height: 100px;
+    top: 453px;
+    left: 34px;
+}
+div.ssd-fdd .ex-dam {
+    top: 595px;
+    left: 15px;
+}
+/*End FDD Components*/
+
 /*FCA Components*/
 div.ssd-fca .shield-1 {
     top: 25px;
