@@ -14,6 +14,12 @@
     height: 1063px;
     background-image: url("https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/ssd_hca_v5.png");
 }
+.charsheet .ssd-hdd {
+    display: none;
+    width: 612px;
+    height: 719px;
+    background-image: url("https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/ssd_hdd_v1.png");
+}
 .charsheet .ssd-gca {
     display: none;
     width: 642px;
@@ -21,9 +27,10 @@
     background-image: url("https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/gorn_cruiser_bg.png");
 }
 /* show the selected ssds */
+.charsheet .ssd-typetoggle[value="SF"] ~ div.ssd-sf,
 .charsheet .ssd-typetoggle[value="HCA"] ~ div.ssd-hca,
-.charsheet .ssd-typetoggle[value="GCA"] ~ div.ssd-gca,
-.charsheet .ssd-typetoggle[value="SF"] ~ div.ssd-sf {
+.charsheet .ssd-typetoggle[value="HDD"] ~ div.ssd-hdd,
+.charsheet .ssd-typetoggle[value="GCA"] ~ div.ssd-gca {
     display: block;
 }
 .ssd-component {
