@@ -8,17 +8,17 @@
     height: 861px;
     background-image: url("https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/ssd_sf_v2.png");
 }
-.charsheet .ssd-hca {
+.charsheet .ssd-fca {
     display: none;
     width: 696px;
     height: 1063px;
-    background-image: url("https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/ssd_hca_v5.png");
+    background-image: url("https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/ssd_fca_v1.png");
 }
-.charsheet .ssd-hdd {
+.charsheet .ssd-fdd {
     display: none;
     width: 612px;
     height: 719px;
-    background-image: url("https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/ssd_hdd_v2.png");
+    background-image: url("https://raw.githubusercontent.com/lpainton/starfleetbattles_designer_edition/master/ssd_fdd_v1.png");
 }
 .charsheet .ssd-gca {
     display: none;
@@ -28,8 +28,8 @@
 }
 /* show the selected ssds */
 .charsheet .ssd-typetoggle[value="SF"] ~ div.ssd-sf,
-.charsheet .ssd-typetoggle[value="HCA"] ~ div.ssd-hca,
-.charsheet .ssd-typetoggle[value="HDD"] ~ div.ssd-hdd,
+.charsheet .ssd-typetoggle[value="FCA"] ~ div.ssd-fca,
+.charsheet .ssd-typetoggle[value="FDD"] ~ div.ssd-fdd,
 .charsheet .ssd-typetoggle[value="GCA"] ~ div.ssd-gca {
     display: block;
 }
@@ -158,158 +158,158 @@ div.ssd-sf .ex-dam {
 }
 /*End SF Components*/
 
-/*HCA Components*/
-div.ssd-hca .shield-1 {
+/*FCA Components*/
+div.ssd-fca .shield-1 {
     top: 25px;
     left: 365px;
 }
-div.ssd-hca .shield-2 {
+div.ssd-fca .shield-2 {
     top: 100px;
     left: 620px;
 }
-div.ssd-hca .shield-3 {
+div.ssd-fca .shield-3 {
     top: 545px;
     left: 620px;
 }
-div.ssd-hca .shield-4 {
+div.ssd-fca .shield-4 {
     top: 835px;
     left: 365px;
 }
-div.ssd-hca .shield-5 {
+div.ssd-fca .shield-5 {
     top: 545px;
     left: 110px;
 }
-div.ssd-hca .shield-6 {
+div.ssd-fca .shield-6 {
     top: 100px;
     left: 110px;
 }
-div.ssd-hca .phot-fa {
+div.ssd-fca .phot-fa {
     width: 100px;
     height: 25px;
     top: 169px;
     left: 345px;
 }
-div.ssd-hca .btty-f {
+div.ssd-fca .btty-f {
     top: 215px;
     left: 290px;
 }
-div.ssd-hca .tran-f {
+div.ssd-fca .tran-f {
     top: 215px;
     left: 440px;
 }
-div.ssd-hca .ph-1-fh {
+div.ssd-fca .ph-1-fh {
     top: 232px;
     left: 370px;
 }
-div.ssd-hca .ph-1-lf {
+div.ssd-fca .ph-1-lf {
     width: 25px;
     height: 50px;
     top: 270px;
     left: 244px;
 }
-div.ssd-hca .lab-lf {
+div.ssd-fca .lab-lf {
     top: 265px;
     left: 290px;
 }
-div.ssd-hca .lab-rf {
+div.ssd-fca .lab-rf {
     top: 265px;
     left: 440px;
 }
-div.ssd-hca .ph-1-rf {
+div.ssd-fca .ph-1-rf {
     width: 25px;
     height: 50px;
     top: 270px;
     left: 522px;
 }
-div.ssd-hca .bridge {
+div.ssd-fca .bridge {
     top: 305px;
     left: 365px;
 }
-div.ssd-hca .hull-lf {
+div.ssd-fca .hull-lf {
     top: 340px;
     left: 255px;
 }
-div.ssd-hca .hull-rf {
+div.ssd-fca .hull-rf {
     top: 340px;
     left: 480px;
 }
-div.ssd-hca .emer {
+div.ssd-fca .emer {
     top: 380px;
     left: 365px;
 }
-div.ssd-hca .impulse {
+div.ssd-fca .impulse {
     top: 430px;
     left: 365px;
 }
-div.ssd-hca .aux-con {
+div.ssd-fca .aux-con {
     top: 520px;
     left: 365px;
 }
-div.ssd-hca .btty-r {
+div.ssd-fca .btty-r {
     top: 545px;
     left: 305px;
 }
-div.ssd-hca .trac {
+div.ssd-fca .trac {
     top: 545px;
     left: 425px;
 }
-div.ssd-hca .prb {
+div.ssd-fca .prb {
     top: 620px;
     left: 305px;
 }
-div.ssd-hca .tran-r {
+div.ssd-fca .tran-r {
     top: 620px;
     left: 425px;
 }
-div.ssd-hca .warp-lr {
+div.ssd-fca .warp-lr {
     top: 670px;
     left: 225px;
 }
-div.ssd-hca .hull-lr {
+div.ssd-fca .hull-lr {
     top: 670px;
     left: 305px;
 }
-div.ssd-hca .shuttle {
+div.ssd-fca .shuttle {
     top: 670px;
     left: 365px;
 }
-div.ssd-hca .hull-rr {
+div.ssd-fca .hull-rr {
     top: 670px;
     left: 425px;
 }
-div.ssd-hca .warp-rr {
+div.ssd-fca .warp-rr {
     top: 670px;
     left: 505px;
 }
-div.ssd-hca .ph-3-lr {
+div.ssd-fca .ph-3-lr {
     top: 751px;
     left: 319px;
 }
-div.ssd-hca .ph-3-rr {
+div.ssd-fca .ph-3-rr {
     top: 751px;
     left: 445px;
 }
-div.ssd-hca .sensor {
+div.ssd-fca .sensor {
     width: 25px;
     height: 125px;
     top: 81px;
     left: 41px;
 }
-div.ssd-hca .scanner {
+div.ssd-fca .scanner {
     width: 25px;
     height: 125px;
     top: 283px;
     left: 41px;
 }
-div.ssd-hca .dam-con {
+div.ssd-fca .dam-con {
     width: 25px;
     height: 119px;
     top: 485px;
     left: 41px;
 }
-div.ssd-hca .ex-dam {
+div.ssd-fca .ex-dam {
     top: 685px;
     left: 25px;
 }
-/*End HCA Components*/
+/*End FCA Components*/
 
